@@ -1,0 +1,13 @@
+{
+  "id": "did:example:issuer123",
+  "type": ["Ed25519VerificationKey2020"],
+  "controller": "did:example:issuer123",
+  "publicKey": [
+    {
+      "id": "did:example:issuer123#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:example:issuer123",
+      "publicKeyPem": "issuer_secret_key_for_hmac_12345"
+    }
+  ]
+}
